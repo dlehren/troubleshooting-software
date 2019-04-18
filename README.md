@@ -1,11 +1,20 @@
 # Troubleshooting Software
-A book about troubleshooting software bugs and how to avoid them.
+A book about troubleshooting software issues.
 
-A software bug will keep on happening as long as its not fixed, as soon as its noticed it should be documented. unlike other fields where the situation could change by itself or things just behave strange sometimes and dont happon again software runs exatly the same untill there is a change in the code or environment.
+## Definition
+A software bug is an error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways. source https://en.wikipedia.org/wiki/Software_bug
+
+Software by nature is going to have bugs in it, the first step is comming to terms with it, its normal and the only way to not have bugs is to stop shipping software (no software == no bugs).
+
+## Bug vs Feature 
+
+Im using github to write this document and im not the best at spelling and grammer, it would be realy helpfull if spell check worked but it does not. is that a bug? no. would it be helpfull? yes. but its more of a feature request.
+
+A bug gets reported to a developer and he replies that its not a bug, its a feature and goes on to explain why the software works in a certain way. the issue is that user was using the software and something bothered them so much that thay went ahead and contacted you its probibly worth understanding what the expectation was and it might indeed be a bug.
+
+bugs will not go away by themself and will keep on happening, and its importent that if you notice something not working as expected to take a note of it to have it fixed in the future.
 
 ## finding a bug has a few steps.
-
-### definition 
 
 ### The somthing is off feeling
   when using or developing a software application and you notice that somthing is strange, stop for a secound and think then ask yourself is there a problem here? for example I use google maps to commute to work and i noticed that when entering a difrent state there is a small pop up on the buttom saying welecome to new jersey and then it goes away, I noticed that after a update to maps the pop up was not going away and the bar on the buttom with the ETA was being blocked, at first i didnt think its a issue and i would try clicking on it to get rid of the pop up but after a few times i realized that somthing is off and i would pay extra attention every time it happond and then i went ahead and reported it and a while later it was fixed.
